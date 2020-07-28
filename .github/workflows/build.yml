@@ -19,4 +19,4 @@ jobs:
     - name: Build Release APK
       run: ./gradlew assembleRelease
     - name: Releasing using Hub
-      run: ./gradlew publishApk
+      run: ./gradlew app:publishApkRelease
